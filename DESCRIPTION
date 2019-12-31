@@ -18,3 +18,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/rrrlw/contRibution
 BugReports: https://github.com/rrrlw/contRibution/issues
+RoxygenNote: 7.0.2
