@@ -13,6 +13,7 @@ Description: Generates a table to document author contributions to research
     same. This replaces wordy descriptions with a visual and intuitive
     standard.
 License: MIT
+Imports: ggplot2 (>= 3.2.1)
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/rrrlw/contRibution
