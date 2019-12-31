@@ -12,7 +12,7 @@ Description: Generates a table to document author contributions to research
     papers and projects as an alternative to paragraphs describing the
     same. This replaces wordy descriptions with a visual and intuitive
     standard.
-License: MIT
+License: MIT + file LICENSE
 Imports: ggplot2 (>= 3.2.1)
 Encoding: UTF-8
 LazyData: true
