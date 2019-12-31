@@ -19,3 +19,7 @@ LazyData: true
 URL: https://github.com/rrrlw/contRibution
 BugReports: https://github.com/rrrlw/contRibution/issues
 RoxygenNote: 7.0.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
