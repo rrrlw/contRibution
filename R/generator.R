@@ -17,14 +17,15 @@
 contribution_table <- function(df) {
   df2 <- expand.grid(x = levels(df$Author), y = levels(df$Activity))
   for (i in 1:nrow(df2)) {
-    if (nrow(subset(df, Author == df2$x[i] & Activity == df2$y[i])) > 0) {
+    temp <- df[df$Author == df2$x[i] & df$Activity == df2$y[i], ]
+    if (nrow(temp) > 0) {
       df2$Fill[i] <- "grey"
     } else {
       df2$Fill[i] <- "white"
     }
   }
 
-  ggplot(df2, aes(y, x, fill = I(Fill))) +
+  ggplot(df2, aes(.data$y, .data$x, fill = I(.data$Fill))) +
     geom_tile(colour = I("black")) +
     theme_minimal() +
     theme(panel.grid = element_blank(),
