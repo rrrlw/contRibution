@@ -3,6 +3,7 @@
 #' @param df data frame containing author contribution information
 #'   in two columns: Author, Activity. See example for details.
 #' @import ggplot2
+#' @export
 #' @return ggplot of author contribution table
 #' @examples
 #' # NK participated in Concept and Design
