@@ -1,4 +1,4 @@
-#' contRibution: Visual documentation of project contributions
+#' contributR: Visual documentation of project contributions
 #'
 #' Implements generation of a table to document author contributions to
 #' research papers and projects as an alternative to paragraphs describing the
@@ -6,5 +6,5 @@
 #' standard.
 #'
 #' @docType package
-#' @name contRibution
+#' @name contributR
 NULL
