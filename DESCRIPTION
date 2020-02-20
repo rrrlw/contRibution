@@ -1,4 +1,4 @@
-Package: contRibution
+Package: contributR
 Type: Package
 Title: Visual Documentation of Project Contributions
 Version: 0.1.0
@@ -16,8 +16,8 @@ License: MIT + file LICENSE
 Imports: ggplot2 (>= 3.2.1)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/rrrlw/contRibution
-BugReports: https://github.com/rrrlw/contRibution/issues
+URL: https://github.com/rrrlw/contributR
+BugReports: https://github.com/rrrlw/contributR/issues
 RoxygenNote: 7.0.2
 Suggests: 
     knitr,
